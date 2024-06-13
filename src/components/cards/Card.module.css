@@ -38,3 +38,9 @@
     height: 30%;
 }
 
+.tags span{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+}
