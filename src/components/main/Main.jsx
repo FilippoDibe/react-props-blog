@@ -15,7 +15,8 @@ const Main = () => {
                 <TagsList tags={tags} tagColors={tagColors} />
 
                 <div className="card-container">
-                    {posts.filter(post => post.published).map(post => (
+                    {posts.map(post => (
+                        post.published === true &&
                         <CardComponent 
                             key={post.id} 
                             post={post}
